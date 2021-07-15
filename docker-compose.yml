@@ -3,7 +3,7 @@ version: "2"
 # Define the services/containers to be run
 services:
   database:
-    image: mongo:4.4
+    image: mongo:5.0
     ports:
       - "27017:27017"
     container_name: berrybox_mongo
